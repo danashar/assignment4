@@ -11,22 +11,34 @@
 <body>
     <div class="side-menu">
         <ul>
-            <li><button id="new">NEW PIZZA</button></li>
-            <li><button id="save">SAVE PIZZA</button></li>
-            <li><button id="load">LOAD PIZZA</button></li>
+            <li><button id="newBtn">New Paint</button></li>
+            <li><button id="saveBtn">Save Paint</button></li>
+            <li><button id="loadBtn">Load Paint</button></li>
         </ul>
-        <h3 class="menu-title">Toppings</h3>
-        <ul id="toppings-menu">
-            <li><button id="tomatoes" class="cover-bg">Tomatoes</button></li>
-            <li><button id="olives" class="cover-bg">Olives</button></li>
-            <li><button id="mushrooms" class="cover-bg">Mushrooms</button></li>
-            <li><button id="pineapple" class="cover-bg">Pineapple!</button></li>
+        <h3 class="menu-title">Brush Size</h3>
+        <ul id="pen-size-menu">
+            <li><button id="smallPen" class="pen-btn cover-bg">Small</button></li>
+            <li><button id="mediumPen" class="pen-btn cover-bg">Medium</button></li>
+            <li><button id="largePen" class="pen-btn cover-bg">Large</button></li>
         </ul>
+        <h3 class="menu-title">Tools</h3>
+        <ul id="colors-menu">
+            <li><button id="white" class="color-btn cover-bg">Eraser</button></li>
+        </ul>
+        <h3 class="menu-title">Colors</h3>
+        <ul id="colors-menu">
+            <li><button id="red" class="color-btn cover-bg">Red</button></li>
+            <li><button id="green" class="color-btn cover-bg">Green</button></li>
+            <li><button id="blue" class="color-btn cover-bg">Blue</button></li>
+            <li><button id="yellow" class="color-btn cover-bg">Yellow</button></li>
+
+        </ul>
+
     </div>
-    <div class="pizza-wrapper">
-        <h2 id="pizza-title">
+    <div class="paint-wrapper">
+        <h2 id="paint-title">
             </h3>
-            <div id="pizza"></div>
+            <div id="myPaint"></div>
     </div>
 
     <script src="js/paint.js"></script>
