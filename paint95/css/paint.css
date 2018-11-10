@@ -1,8 +1,3 @@
-.cover-bg{
-    background-size: cover;
-    background-position: center;
-}
-
 .clickable{
     cursor:pointer;
 }
@@ -12,13 +7,14 @@
 }
 
 #myPaint{
-    height:500px;
-    width:500px;
+    height:620px;
+    width:620px;
     background-color:white;
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto;
     position:relative;
+    left:22%;
     border-color: black;
     border-width: 1px;
     border-style: solid;
@@ -27,14 +23,16 @@
 .side-menu{
     top:0;
     left:0;
-    width: 400px;
+    width: 100%;
     position: absolute;
     height: 100vh;
-    background-color: green;
+    background:linear-gradient(#ffecd2,#E5FCC2);
 }
 
-.side-menu .menu-title{
-    text-align: center;
+h3.menu-title{
+    text-align: left;
+    padding-left:45px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .side-menu ul{
@@ -43,50 +41,71 @@
 
 .side-menu button{
     color:white;
-    background-color:red;
-    font-family: 'Lobster', cursive;
-    font-size:40px;
-    border:10px solid green;
-    width: 300px;
+    background-color:#99B8A8;
+    font-family: 'Gloria Hallelujah', cursive;;
+    font-size:20px;
+    border:5x solid black;
+    width: 150px;
     cursor:pointer;
     box-sizing: border-box;
+    margin: 3px;
+    outline: none;
+   
 }
+
+
+#pen-size-menu, #colors-menu{
+    display: flex;
+}
+
 
 .side-menu button.selected{
-    border:10px solid blue;
+    border:3px solid rgb(54, 51, 51);
+    border-radius: 50px;
 }
 
-#modal-wrapper{
-    position:fixed;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-    background-color:rgba(0,0,0,0.5);
-    z-index:12345;
+.color-btn{ 
+    border-radius: 50px;
+    width: 50px;
+    height: 70px;
 }
 
-#modal-wrapper .modal-title{
-    font-family: 'Lobster', cursive;
-    font-size:40px;
-    color:red;
+#red{
+    background-color: red;
 }
 
-#modal-wrapper .modal{
-    background-color: white;
-    min-width: 200px;
-    min-height: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    padding: 40px;
-    border-radius: 5px;
+#yellow{
+    background-color:yellow;
+
+}
+  
+#blue{
+    background-color: blue;
+
 }
 
-#modal-wrapper .close-btn{
-    position:absolute;
-    right:10px;
-    top:10px;
-    color:black;
+#green{
+    background-color:green;
+ 
 }
+#purple{
+    background-color:purple;
+ 
+}
+
+#orange{
+    background-color:orange;
+
+}
+
+#pink{
+    background-color:pink;
+ 
+}
+
+#grey{
+    background-color: grey;
+
+}
+
+

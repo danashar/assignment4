@@ -77,7 +77,6 @@ myPaint.setPenSize = function (e) {
         myPaint.currentPenSize = "6px"
     }
     else {
-        //big 
         myPaint.currentPenSize = "18px"
     }
 
